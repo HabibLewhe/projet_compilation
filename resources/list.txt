@@ -1,0 +1,10 @@
+resources/print_int.asm
+resources/print_char.asm
+resources/print_bool.asm
+resources/print_string.asm
+resources/length.asm
+resources/new.asm
+resources/read_char.asm
+resources/read_int.asm
+resources/read_bool.asm
+resources/read_string.asm

@@ -1,0 +1,11 @@
+Dépendances :
+	antlr-4.101:-complete.jar se trouve dans le répertoire /usr/local/lib
+	Et j’ai rajouté les lignes suivantes dans mon bashrc : 
+	export CLASSPATH=".:/usr/local/lib/antlr-4.10.1-complete.jar:$CLASSPATH"
+	alias antlr4='java xXmx500M -cp "/usr/local/lib/antlr-4.10.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
+
+Pour compiler :
+	'./build'
+
+Pour exécuter :
+	'java main.Test tests/test1.tl'

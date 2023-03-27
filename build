@@ -1,0 +1,5 @@
+#!/bin/bash
+
+bash -i gram.sh
+javac */*.java 
+
